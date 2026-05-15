@@ -1,15 +1,20 @@
 'use client'
+
 import { useTheme } from 'next-themes'
 
 export default function ThemeToggle() {
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
+  const isDark = resolvedTheme === 'dark'
 
   return (
     <button
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="px-3 py-2 rounded-2xl border"
+      type="button"
+      aria-label="Toggle theme"
+      onClick={() => setTheme(isDark ? 'light' : 'dark')}
+      className="grid size-10 place-items-center rounded-full border border-zinc-200 text-sm font-semibold transition hover:border-zinc-500 dark:border-zinc-800"
+      suppressHydrationWarning
     >
-      {theme === 'dark' ? '☀️' : '🌙'}
+      {isDark ? 'L' : 'D'}
     </button>
   )
 }
