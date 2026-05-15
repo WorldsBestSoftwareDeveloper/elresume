@@ -14,19 +14,25 @@ const skills = [
 
 const projects = [
   {
-    title: 'Resume Portfolio',
-    desc: 'A fast personal portfolio built with the App Router, dark mode, responsive sections, and clear project storytelling.',
-    tags: ['Next.js', 'Tailwind', 'Dark mode'],
+    title: 'Ciphergate',
+    desc: 'Confidential AI service coordination onchain. CipherHire is a decentralized marketplace for AI services built with Zama FHEVM, where clients create tasks with encrypted budgets, providers submit encrypted bids, and smart contracts privately compute the winning provider.',
+    tags: ['JavaScript', 'TypeScript', 'CSS', 'Solidity'],
+    liveUrl: 'https://cipherhire.netlify.app',
+    githubUrl: 'https://github.com/WorldsBestSoftwareDeveloper/cipherhire',
   },
   {
-    title: 'Business Landing Page',
-    desc: 'A conversion-focused website concept with reusable sections, mobile-first layout, and polished calls to action.',
-    tags: ['React', 'UI Design', 'Responsive'],
+    title: 'Drosera Arts',
+    desc: 'A simple mock art place built for the Drosera community with a lightweight, creative front-end experience.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://drosera-art.netlify.app/',
+    githubUrl: 'https://github.com/WorldsBestSoftwareDeveloper/Drosera-Arts',
   },
   {
-    title: 'Dashboard Interface',
-    desc: 'A clean admin-style interface for tracking metrics, organizing actions, and presenting dense information clearly.',
-    tags: ['TypeScript', 'Components', 'UX'],
+    title: 'Inco Flappy',
+    desc: 'A simple game for the Inco community on X, inspired by the early mobile-era Flappy Bird game.',
+    tags: ['HTML', 'Game'],
+    liveUrl: 'https://inco-flappy.netlify.app/',
+    githubUrl: 'https://github.com/WorldsBestSoftwareDeveloper/inco-flappy',
   },
 ]
 
@@ -116,8 +122,8 @@ export default function Home() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-300">Projects</p>
           <h2 className="mt-2 text-3xl font-semibold">Selected work</h2>
           <p className="mt-4 leading-7 text-zinc-600 dark:text-zinc-400">
-            A focused set of projects that show responsive layout, component thinking, and polish. Replace these with
-            live links as your portfolio grows.
+            A focused set of projects across decentralized AI coordination, community experiences, and lightweight web
+            games.
           </p>
         </div>
 
