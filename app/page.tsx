@@ -6,6 +6,7 @@ const skills = [
   'React',
   'TypeScript',
   'Tailwind CSS',
+  'Solidity',
   'Responsive UI',
   'Performance',
   'Accessibility',
@@ -37,9 +38,9 @@ const projects = [
 ]
 
 const stats = [
-  ['8+', 'Core skills'],
+  ['9+', 'Core skills'],
   ['3', 'Featured projects'],
-  ['100%', 'Responsive layout'],
+  ['Full', 'Stack focus'],
 ]
 
 export default function Home() {
@@ -50,14 +51,15 @@ export default function Home() {
       <section className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 md:grid-cols-[1.35fr_0.65fr] md:items-center md:py-24">
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-teal-700 dark:text-teal-300">
-            Frontend Developer
+            Richard Yakubu - Full Stack Developer
           </p>
           <h1 className="max-w-3xl text-4xl font-bold leading-tight text-zinc-950 dark:text-white sm:text-5xl lg:text-6xl">
-            Building clean, modern web experiences that feel easy to use.
+            Building polished web apps, smart-contract experiences, and community tools.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-zinc-600 dark:text-zinc-400 sm:text-lg">
-            I create responsive interfaces with React, Next.js, TypeScript, and Tailwind CSS, focusing on clarity,
-            performance, and thoughtful details that make products feel finished.
+            I am a full stack developer who turns ideas into responsive, user-friendly products across web and onchain
+            ecosystems. My work combines clean interfaces, practical engineering, and smart contract integrations for
+            products that feel clear, fast, and ready to use.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -73,13 +75,21 @@ export default function Home() {
             >
               Download Resume
             </a>
+            <a
+              href="https://x.com/ContributorEL_"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold transition hover:border-zinc-600 dark:border-zinc-700 dark:hover:border-zinc-400"
+            >
+              Follow on X
+            </a>
           </div>
         </div>
 
         <aside className="rounded-lg border border-zinc-200 bg-zinc-50 p-5 dark:border-zinc-800 dark:bg-zinc-950">
           <div className="border-b border-zinc-200 pb-5 dark:border-zinc-800">
             <p className="text-sm text-zinc-500 dark:text-zinc-400">Currently focused on</p>
-            <p className="mt-2 text-xl font-semibold">Polished frontend systems and portfolio-ready web apps.</p>
+            <p className="mt-2 text-xl font-semibold">Full-stack products, Web3 interfaces, and useful community apps.</p>
           </div>
           <dl className="mt-5 grid gap-4">
             {stats.map(([value, label]) => (
@@ -100,7 +110,8 @@ export default function Home() {
               <h2 className="mt-2 text-2xl font-semibold">Tools I use to ship clean interfaces</h2>
             </div>
             <p className="max-w-xl text-sm leading-6 text-zinc-600 dark:text-zinc-400">
-              Practical frontend skills with an eye for layout, speed, and maintainable components.
+              Practical full-stack skills with an eye for layout, speed, smart contracts, and maintainable product
+              systems.
             </p>
           </div>
 
@@ -155,14 +166,26 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-300">Contact</p>
             <h2 className="mt-2 text-3xl font-semibold">Ready to build something polished?</h2>
-            <p className="mt-3 text-zinc-600 dark:text-zinc-400">Update this email with your real contact address.</p>
+            <p className="mt-3 text-zinc-600 dark:text-zinc-400">
+              Reach out by email or connect with me on X.
+            </p>
           </div>
-          <a
-            href="mailto:your@email.com"
-            className="inline-flex items-center justify-center rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
-          >
-            your@email.com
-          </a>
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <a
+              href="mailto:richardyakubukassah@gmail.com"
+              className="inline-flex items-center justify-center rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
+            >
+              Email Richard
+            </a>
+            <a
+              href="https://x.com/ContributorEL_"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold transition hover:border-zinc-600 dark:border-zinc-700 dark:hover:border-zinc-400"
+            >
+              X Profile
+            </a>
+          </div>
         </div>
       </section>
     </main>

@@ -3,8 +3,8 @@ import Providers from '@/components/Providers'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ElResume | Frontend Developer',
-  description: 'A polished portfolio and resume for a frontend developer.',
+  title: 'Richard Yakubu | Full Stack Developer',
+  description: 'Portfolio for Richard Yakubu, a full stack developer building polished web and onchain experiences.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
